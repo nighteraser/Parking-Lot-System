@@ -11,7 +11,8 @@ The Internet of Things (IoT) is a crucial area of technological development toda
 ## Viewing Results
 No Car Detected
 When no car is detected, the system will display the following:
-![no_car](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/19aa121a-047d-40c0-9836-8afe27181d84)
+![no_car](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/d51cef3c-73d3-43f7-9489-bbb2086fbfc9)
+
 
 
 ## Installation
