@@ -12,6 +12,16 @@ The Internet of Things (IoT) is a crucial area of technological development toda
 No Car Detected
 When no car is detected, the system will display the following:
 ![no_car](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/d51cef3c-73d3-43f7-9489-bbb2086fbfc9)
+![no plate](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/bb94d742-8390-4c59-8837-c899facc8617)
+
+
+Plate Detected
+When a car is detected and the license plate is recognized, the system will display the following:
+
+![door open](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/c62e244a-a5e5-4900-bdac-e1ef03825a1d)
+![car plate](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/ace70d05-6e89-475e-a7c7-a308be83a008)
+
+
 
 
 
