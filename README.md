@@ -61,3 +61,6 @@ easyocr: For Optical Character Recognition (OCR) to detect license plates.
 opencv-python: For image processing.
 pillow: For image handling.
 pyserial: For serial communication between the computer and Arduino UNO.
+
+## Reference
+[NMKing](https://www.nmking.io/index.php/2024/01/09/1369/)
