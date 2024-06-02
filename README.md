@@ -8,6 +8,17 @@ The Internet of Things (IoT) is a crucial area of technological development toda
 - License Plate Recognition: Captures and processes images using a camera and Python-based OCR.
 - Parking Guidance: Provides visual indicators to guide parking operations.
 
+## Viewing Results
+![no car](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/6c61fe3d-ef73-4944-a844-9b475ef18905)
+###### No Car.
+![No Plate Detected](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/8cb0f438-b133-4a68-93e0-e78921e4f0b6)
+![door close](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/ef4635dc-67b8-446b-96f6-cae824a3efb4)
+###### No Plate Detected.
+![Plate Detected](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/032c1774-dc74-42c0-839f-39e85eb24cb0)
+![door open](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/8f2d18c5-12a6-4c2c-a2d0-e154d7fbb45a)
+###### Plate Detected.
+
+
 ## Installation
 ### Arduino UNO
 1. Install the Arduino IDE from the official Arduino website.
@@ -35,7 +46,7 @@ pip install easyocr opencv-python pillow pyserial
 ## Running the System
 Run the Python script to start the smart parking system. The script will connect to the ESP32 camera stream, capture images, detect car plates, and send signals to the Arduino UNO.
 ``` sh
-python your_script_name.py
+python CarPlateViewer.py
 ```
 ## Dependencies
 Arduino IDE: For programming the Arduino UNO and ESP32.
