@@ -9,15 +9,9 @@ The Internet of Things (IoT) is a crucial area of technological development toda
 - Parking Guidance: Provides visual indicators to guide parking operations.
 
 ## Viewing Results
-<h6>No Car.<\h6> 
-<img src="https://github.com/nighteraser/Parking-Lot-System/assets/110598750/6c61fe3d-ef73-4944-a844-9b475ef18905" width="50%">
-<h6>No Plate Detected. <\h6> 
-<img src="https://github.com/nighteraser/Parking-Lot-System/assets/110598750/8cb0f438-b133-4a68-93e0-e78921e4f0b6" width="50%">
-<img src="https://github.com/nighteraser/Parking-Lot-System/assets/110598750/ef4635dc-67b8-446b-96f6-cae824a3efb4" width="50%">
-<h6>Plate Detected.<\h6> 
-<img src="https://github.com/nighteraser/Parking-Lot-System/assets/110598750/032c1774-dc74-42c0-839f-39e85eb24cb0" width="50%">
-<img src="https://github.com/nighteraser/Parking-Lot-System/assets/110598750/8f2d18c5-12a6-4c2c-a2d0-e154d7fbb45a" width="50%">
-
+No Car Detected
+When no car is detected, the system will display the following:
+![no_car](https://github.com/nighteraser/Parking-Lot-System/assets/110598750/3dd21df3-ebb3-43d4-aae4-baf3f184f062)
 
 ## Installation
 ### Arduino UNO
