@@ -91,7 +91,7 @@ class CarPlateGUI:
         plate_numbers = self.detect("pic.jpg")
         if plate_numbers:
             self.number_label.config(text=f"Car Plate: {', '.join(plate_numbers)}")
-            self.send_hi()
+            self.send_msg()
             self.display_captured_image("pic.jpg")
         else:
             self.number_label.config(text="No plate detected.")
@@ -102,11 +102,11 @@ class CarPlateGUI:
         self.image_label.configure(image=img_tk)
         self.image_label.image = img_tk
 
-    def send_hi(self):
+    def send_msg(self):
         try:
             ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
             time.sleep(2)  # Give some time for the serial connection to establish
-            ser.write("hi\n".encode('utf-8'))
+            ser.write("getPhoto\n".encode('utf-8'))
             ser.close()
         except Exception as e:
             print("Serial communication error: " + str(e))

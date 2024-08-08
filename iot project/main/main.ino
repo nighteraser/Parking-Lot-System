@@ -27,7 +27,7 @@ int waitForRespond() {
   if (Serial.available() > 0) {
     String message = Serial.readStringUntil('\n');
     message.trim(); // Remove any leading or trailing whitespace
-    if (message == "hi") {
+    if (message == "getPhoto") {
       return 1; 
     }
   }
@@ -75,7 +75,7 @@ void loop() {
     isopen = 0;
   }
   delay(1000); 
-//  delay(2000);
+
   if ( isopen == 1 ){
     open();
   }else{ 
